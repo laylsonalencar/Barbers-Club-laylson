@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Barber's Club</title>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div>
+        <h1 class="logo">Barber's Club</h1>
+      </div>   
+      <nav class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header> 
+    <main class="main">
+      <section class="apresentacao">
+        <p>
+          Bem-vindo ao <span style="font-weight: 600">Barber's Club!</span>
+        </p><br><br>
+        <p>  
+          Somos uma barbearia sofisticada e moderna, especializada em cortes de cabelo masculinos e serviços de barbearia. Nossa equipe altamente treinada está pronta para fornecer o melhor atendimento e os melhores cortes de cabelo e barbas, com produtos de qualidade. Além disso, nosso ambiente é descontraído e acolhedor, com poltronas confortáveis e um bar para relaxar. 
+        </p><br><br>
+        <p> 
+          Venha nos visitar e desfrute de uma experiência única e relaxante. Garantimos que você sairá com uma aparência renovada e confiante.
+        </p><br><br>
+        <p>    
+          Agende sua visita hoje mesmo e junte-se à nossa lista de clientes satisfeitos!
+        </p>        
+      </section>
+      <section class="fotos">
+        <div>
+          <img src="./images/cortes-de-cabelo-masculinos-01.jpg" alt="Foto de um rapaz com um corte de cabelo"> 
+        </div>
+        <div>
+          <img src="./images/cortes-de-cabelo-masculinos-02.jpg" alt="Foto de um rapaz com um corte de cabelo">
+        </div>  
+      </section>
+      <section id="contato">
+        <div class="form-item">
+         <label for="contato">Contato</label>
+        </div>
+        <div class="form-item">
+         <input type="text" id="contato" name="nome" placeholder="Digite o seu nome">
+        </div>
+        <div class="form-item">
+         <input type="text" id="contato" name="nome" placeholder="Digite o assunto">
+        </div>
+        <div class="form-item">
+         <textarea id="mensagem" name="mensagem" rows="4"  placeholder="Digite sua mensagem"></textarea>
+        </div>
+        <div class="button">
+          <button onclick="window.alert('Mensagem enviada, obrigado!')" type="submit">Enviar</button>
+         </div>
+      </section>
+    </main>
+    <footer>
+      <p>Barber's Club 2023</p>
+    </footer>
+  </div>
+</body>
+</html>
